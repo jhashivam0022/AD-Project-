@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 237, 70);
+    display: block;
+}
+
+#map {
+    position: absolute;
+    border: 10px solid rgb(0, 196, 0);
+    padding: 45vh 45vw;
+    background-color: gray;
+    margin: 5%;
+
+}
+
+.coordinates {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 18px;
+    border-radius: 3px;
+    display: none;
+}
+
+#geocoder-container>div {
+    min-width: 50%;
+    margin-left: 25%;
+    font-size: 300px;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
