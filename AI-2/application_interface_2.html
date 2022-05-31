@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>&#127759;&nbsp;&nbsp;Keep Me Clean - Complaint Registration Form</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="loginFrm">
+    <div class="form" id="myForm">
+      <h4 class="title">
+        <center>&#127759;&nbsp;&nbsp;<a href="https://kmcproject.blogspot.com/">Keep Me Clean</a></center>
+      </h4>
+      <h3>&#128073;&nbsp;&nbsp;Complaint Registration Form</h3>
+      <div class="inputContainer">
+        <select name="issue" class="input" type="text" class="select" placeholder="a">
+          <option value="Clean Garbage">Clean Garbage</option>
+          <option value="Sewage Issue">Sewage Issue</option>
+          <option value="Road Damage">Road Damage</option>
+          <option value="Water Pipe Damage">Water Pipe Damage</option>
+          <option value="Electricity Wire Damage">Electricity Wire Damage</option>
+        </select>
+        <label for="" class="label">Select Issue</label>
+      </div>
+
+      <div class="inputContainer">
+        <p>&#128073;&nbsp;&nbsp;Live location - <button onclick="getLocation()">Click Here to track location</button>
+        </p>
+        <p id="demo" name="lnglat"></p>
+      </div>
+      <br>
+
+      <h3>&#128073;&nbsp;&nbsp;Attach Documents - </h3>
+      <div class="inputContainer">
+        <h4>
+          <label for="myfile">&bull;&nbsp;&nbsp;Select a file 1*- </label>
+          <input type="file" name="doc1" class="image" placeholder="a" required />
+        </h4>
+      </div>
+
+      <div class="inputContainer">
+        <h4>
+          <label for="myfile">&bull;&nbsp;&nbsp;Select a file 2 - </label>
+          <input type="file" class="image" name="doc2" placeholder="a" />
+        </h4>
+      </div>
+
+      <div class="inputContainer">
+        <h4>
+          <label for="myfile">&bull;&nbsp;&nbsp;Select a file 3 - </label>
+          <input type="file" class="image" name="doc3" placeholder="a" />
+        </h4>
+      </div>
+      <h3>&#128073;&nbsp;&nbsp;Issue Detail - </h3>
+      <div class="inputContainer">
+        <textarea type="text" class="input" placeholder="a" rows="5"></textarea>
+        <label for="" class="label">Describe the issue</label>
+      </div>
+      <br>
+      <br>
+      <div>
+        <center>
+          <button class="submitBtn" type="submit">
+            Submit
+          </button>
+          <!-- <a href="https://kmcproject.blogspot.com/">
+            <button class="submitBtn" href="https://kmcproject.blogspot.com/">
+              Home
+            </button>
+
+          </a> -->
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <!-- location -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js">
+
+  </script>
+
+</body>
+
+</html>
