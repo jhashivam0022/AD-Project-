@@ -8,10 +8,20 @@ In India, everyone knows the conditions of Garbage disposal, Road damage, Sewage
 
 <h1> <b> Main WEBSITE Pictures </b> </h1>
 
+The Website contents all the details about the project - <a href="https://kmcproject.blogspot.com">Website Link</a>
+
+
 <img src="images/01_website%20interface.png" width="22%" height="8%" >      <img src="images/02_description.png" width="22%" height="10%" >     <img src="images/03_application%20interface.png" width="22%" height="10%" >        <img src="images/04_about.png" width="22%" height="10%" >
 
 
 <h1> <b>&bull; &nbsp; Application Interface - I Pictures </b> </h1>
 
+Interface I Website - <a href="https://applicationinterfacekmc.blogspot.com">Website Link</a>
+
+<img src="images/06_ai_1_01.png" width="22%" height="8%" >  <img src="images/07_ai_1_02.png" width="22%" height="8%" >  <img src="images/08_ai_1.png" width="22%" height="8%" >  
 
 <h1> <b>&bull; &nbsp; Application Interface - II Pictures </b> </h1>
+
+Interface II Website - <a href="https://kmcapplicationinterface2.blogspot.com">Website Link</a>
+
+<img src="images/05_ai_2.png" width="22%" height="8%" >  
